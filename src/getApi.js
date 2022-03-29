@@ -20,6 +20,7 @@ const AsyncAwait = () => {
               <td>Código</td>
               <td>Descripción</td>
               <td>Precio</td>
+              <td>Borrar</td>
               </tr>
         </thead>
         <tbody>
@@ -28,6 +29,7 @@ const AsyncAwait = () => {
               <td>{producto.codigo}</td>
               <td>{producto.descripcion}</td>
               <td>{producto.precio}</td>
+              <input type=button value="Borrar">
             </tr>
           ))}
         </tbody>
